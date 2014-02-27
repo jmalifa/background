@@ -1,0 +1,101 @@
+$bg: white;
+$lighter-bg: lighten($bg, 0%);
+$text-color: black;
+
+html {
+	height:100%;
+}
+
+* {
+
+	margin:0;
+	padding:0;
+}
+body {
+
+	background: url(../images/sec1.jpg) no-repeat center center fixed;
+	background-attachment: fixed;
+	background-position: center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	height: 100%;
+	
+
+}
+
+#sec1 {
+	position: relative;
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-color:$lighter-bg;
+
+
+
+
+
+}
+
+#sec2 {
+
+
+	width:100%;
+	height:100%;
+
+
+
+}
+
+#sec3 {
+
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-color:$lighter-bg;
+
+
+
+}
+
+#sec4 {
+
+	width:100%;
+	height:100%;
+
+	
+
+	
+
+
+
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-height:40px;
+	font-size: 50px;
+	font-family: Helvetica;
+	font-weight: 100;
+	color:$text-color;
+	padding-top: 100px;
+	margin-bottom: 30px;
+
+}
+
+p {
+
+	text-align: center;
+	width: 75%;
+	color:$text-color;
+	top:50%;
+	margin: 0 auto;
+	line-height: 30px;
+	font-family: Helvetica;
+	font-weight: 100;
+
+}
+
